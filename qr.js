@@ -22,7 +22,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
     
-    async function GIFTED_MD_PAIR_CODE() {
+    async function SANDEEP_XMD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -77,7 +77,7 @@ router.get('/', async (req, res) => {
                         let cap = `
 🔐 *𝙳𝙾 𝙽𝙾𝚃 �𝚂𝙷𝙰𝚁𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 𝚆𝙸𝚃𝙷 �𝙽𝚈𝙾𝙽𝙴!!*
 
-Use this code to create your own *𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝚇𝙿𝚁𝙾* WhatsApp User Bot. 🤖
+Use this code to create your own *SANDEEP X MD* WhatsApp User Bot. 🤖
 
 📂 *WEBSITE:*  
 👉 https://SANDEEP X MD-botz-ofc.vercel.app/
@@ -100,7 +100,7 @@ module.exports = {
                             externalAdReply: {
                                 title: "SANDEEP X MD",
                                 thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
-                                sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
+                                sourceUrl: https://whatsapp.com/channel/0029VbC2AAjLtOjJJmJHk30i",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
                                 showAdAttribution: true,
@@ -112,7 +112,7 @@ module.exports = {
                        let cap = `
 🔐 *𝙳𝙾 𝙽𝙾𝚃 𝚂𝙷𝙰𝚁𝙴 �𝚃𝙷𝙸𝚂 𝙲𝙾𝙳𝙴 𝚆𝙸𝚃𝙷 𝙰𝙽𝚈𝙾𝙽𝙴!!*
 
-Use this code to create your own *𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝚇𝙿𝚁𝙾* WhatsApp User Bot. 🤖
+Use this code to create your own *SANDEEP X MD* WhatsApp User Bot. 🤖
 
 📂 *WEBSITE:*  
 👉 https://SANDEEP X MD-botz-ofc.vercel.app/
@@ -135,7 +135,7 @@ module.exports = {
                             externalAdReply: {
                                 title: "SANDEEP X MD",
                                 thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
-                                sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
+                                sourceUrl: "https://whatsapp.com/channel/0029VbC2AAjLtOjJJmJHk30i",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
                                 showAdAttribution: true,
