@@ -95,7 +95,7 @@ module.exports = {
                             externalAdReply: {
                                 title: "SANDEEP X MD ✅",
                                 thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
-                                sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
+                                sourceUrl: "https://whatsapp.com/channel/0029VbC2AAjLtOjJJmJHk30i",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
                                 showAdAttribution: true,
@@ -136,7 +136,7 @@ module.exports = {
                             externalAdReply: {
                                 title: "SANDEEP X MD",
                                 thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
-                                sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
+                                sourceUrl: "https://whatsapp.com/channel/0029VbC2AAjLtOjJJmJHk30i",
                                 mediaType: 2,
                                 renderLargerThumbnail: true,
                                 showAdAttribution: true,
