@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SANDEEP X MD — QR</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{ --bg1:#0f0f1b; --bg2:#15152a; --card:#121226cc; --muted:#aab2c0; --accent:#7c5cff;}
+    *{box-sizing:border-box}
+    body{
+      margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+      background: radial-gradient(1200px 600px at 10% -10%, #1f1147 0%, transparent 60%),
+                  radial-gradient(1200px 600px at 110% 110%, #003a7a 0%, transparent 60%),
+                  linear-gradient(180deg,var(--bg1),var(--bg2));
+      font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;
+      color:#e7e9ee;
+    }
+    .wrap{width:min(780px,96%);padding:28px}
+    .card{background:var(--card);backdrop-filter: blur(14px);border:1px solid rgba(255,255,255,.08);border-radius:22px;padding:28px 26px;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+    h1{margin:0 0 10px;font-size:32px;font-weight:800;letter-spacing:.2px}
+    .brand-gradient{background:linear-gradient(90deg,#ff00cc,#6c5ce7,#00e5ff);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 25px rgba(124,92,255,.18)}
+    p{margin:0;color:var(--muted)}
+    .qrbox{margin-top:18px;display:flex;align-items:center;justify-content:center;border-radius:16px;border:1px dashed rgba(255,255,255,.2);padding:18px;min-height:280px}
+    .toolbar{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap}
+    button{cursor:pointer;padding:12px 14px;border-radius:12px;background:linear-gradient(90deg,#7c5cff,#00e5ff);border:none;color:#0a0a12;font-weight:800;box-shadow:0 8px 24px rgba(124,92,255,.35);}
+    a.btn{display:inline-block;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1><span class="brand-gradient">SANDEEP X MD</span> — QR</h1>
+      <p>කියැවුම් QR එක පහතින් පෙන්වයි. Scan කර couple seconds ඉන්න.</p>
+      <div class="qrbox">
+        <!-- server will stream QR image -->
+        <img src="/server" alt="QR" style="max-width:100%;height:auto" />
+      </div>
+      <div class="toolbar">
+        <a class="btn" href="javascript:history.go(0)"><button>Refresh</button></a>
+        <a class="btn" href="/pair"><button>Use Pair Code</button></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
